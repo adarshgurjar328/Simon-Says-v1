@@ -1,0 +1,61 @@
+body {
+    text-align: center;
+}
+.btn{
+    height : 100px;
+    width : 100px;
+    border : 5px solid black;
+    border-radius : 10%;
+    margin : 2rem;
+}
+.button-container{
+    display : flex;
+    justify-content : center;
+}
+.yellow {
+    background-color: #FFD60A;
+}
+
+.red {
+    background-color: #FF1744;
+}
+
+.green {
+    background-color: #00C853;
+}
+
+.purple {
+    background-color: #9C27B0;
+}
+
+.orange {
+    background-color: #FF9100;
+}
+
+.lime {
+    background-color: #76FF03;
+}
+
+.cyan {
+    background-color: #00B8D4;
+}
+
+.marron {
+    background-color: #5D001E;
+}
+
+.blue {
+    background-color: #304FFE;
+}
+.btn.Flash{
+    background-color: white ;
+}
+.btn.userFlash{
+    background-color: green;
+}
+.btn.wrong{
+    background-color: red;
+}
+body.gameover{
+    background-color: red;
+}
