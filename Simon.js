@@ -1,3 +1,4 @@
+h = prompt(`Utkarsh & Yush tumhare lia nhi ha ye tum nikal lo 🖕`);
 let gameseq = [];
 let userseq = [];
 let started = false;
