@@ -1,4 +1,12 @@
-h = prompt(`Utkarsh & Yush tumhare lia nhi ha ye tum nikal lo 🖕`);
+let playerName;
+
+document.querySelector("#startBtn").addEventListener("click", function () {
+    playerName = document.querySelector("#playerName").value;
+
+    document.querySelector("#nameModal").style.display = "none";
+
+    console.log("Player:", playerName);
+});
 let gameseq = [];
 let userseq = [];
 let started = false;
